@@ -16,10 +16,6 @@ public class Lecturer {
         this.modulesTaught = modulesTaught;
     }
 
-    //		A specific method (getUsername()) will generate the lecturer’s username by
-    //		concatenating their name and age.
-
-
     public String getUsername() {
         return name + age;
     }
